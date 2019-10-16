@@ -21,7 +21,7 @@ class LayoutProcessor
             'label' => 'GST IN',
             'provider' => 'checkoutProvider',
             'visible' => true,
-            'validation' => [],
+            'validation' => ['min_text_length' => 0,'max_text_length' => 20,],
             'sortOrder' => 299,
             'id' => 'gst'
         ];
