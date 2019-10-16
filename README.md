@@ -11,4 +11,4 @@ Add a custom form fields to the checkout shipping address form fields and save t
 
 # Support
 
-If you encounter any problems or bugs, please <a href="">open an issue</a> on GitHub.
+If you encounter any problems or bugs, please <a href="https://github.com/nkscoder/custom_field_gst_in_checkout/issues">open an issue</a> on GitHub.
