@@ -34,7 +34,7 @@ define(
                 }
 
                 var customNotes = $('[name="custom_attributes[gst]"]').val();
-
+             
                 payload = {
                     addressInformation: {
                         shipping_address: quote.shippingAddress(),

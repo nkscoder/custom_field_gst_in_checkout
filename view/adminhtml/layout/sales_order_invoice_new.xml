@@ -1,16 +1,15 @@
-<?xml version="1.0"?>
-<!--
-/**
- * Copyright © 2015 Magento. All rights reserved.
- * See COPYING.txt for license details.
- */
--->
-<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+  <?xml version="1.0"?>
+    <!--
+    /**
+     * Copyright © 2015 Magento. All rights reserved.
+     * See COPYING.txt for license details.
+     */
+    -->
+    <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
 
-    <body>
-        <referenceContainer name="invoice_totals">
-            <block class="MageYug\ExtraShippingCost\Block\Adminhtml\Sales\Order\Invoice\Totals" name="extra_shipping_cost" as="extra_shipping_cost">
-            </block>
-        </referenceContainer>
-    </body>
-</page>
+        <body>        
+            <referenceContainer name="invoice_totals">
+                <block class="Dev\Custom\Block\Adminhtml\Sales\Order\Invoice\Gst" name="gst"/>
+            </referenceContainer>
+        </body>
+    </page>
